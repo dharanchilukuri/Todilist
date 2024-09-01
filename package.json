@@ -1,0 +1,20 @@
+{
+  "name": "todolist-using-reactjs",
+  "version": "1.0.0",
+  "description": "Todo list using reactjs hooks & conextAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "^C"
+  },
+  "keywords": [
+    "Reactjs",
+    "contextApi",
+    "jsx"
+  ],
+  "author": "Dharan",
+  "license": "ISC"
+}
