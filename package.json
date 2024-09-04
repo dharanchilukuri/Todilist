@@ -2,7 +2,6 @@
   "name": "todolist-using-reactjs",
   "version": "1.0.0",
   "description": "Todo list using reactjs hooks & conextAPI",
-  "main": "index.js",
   "homepage": "https://dharanchilukuri.github.io/Todilist-using-Reactjs/",
   "scripts": {
     "start": "parcel index.html",
