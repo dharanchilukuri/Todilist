@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Todo list using reactjs hooks & conextAPI",
   "main": "index.js",
-  "homepage" : "https://dharanchilukuri.github.io/Todilist-using-Reactjs/",
+  "homepage": "https://dharanchilukuri.github.io/Todilist-using-Reactjs/",
   "scripts": {
     "start": "parcel index.html",
-    "build": "react-scripts build",
+    "build": "parcel build index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "test": "jest"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "author": "Dharan",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "parcel": "^2.12.0",
     "postcss": "^8.4.45",
     "process": "^0.11.10",
