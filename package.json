@@ -5,8 +5,9 @@
   "homepage": "https://dharanchilukuri.github.io/Todolist-using-Reactjs/",
   "scripts": {
     "start": "parcel index.html",
+    "clean": "rmdir /s /q dist",
     "build": "parcel build index.html",
-    "predeploy": "npm run build",
+    "predeploy": "npm run clean && npm run build",
     "deploy": "gh-pages -d dist",
     "test": "jest"
   },
