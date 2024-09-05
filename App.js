@@ -108,5 +108,7 @@ const TaskList = () => {
   );
 };
 
+export default TaskList;
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<TaskList />);
